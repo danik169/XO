@@ -23,20 +23,142 @@ body {
 .p1zone {
     border: 2px solid black;
     height: 490px;
-    width: 400px;
+    width: 450px;
     display: flex;
 }
 
 .table {
     border: 2px solid black;
     height: 490px;
-    width: 600px;
+    width: 500px;
+    padding: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .p2zone {
     border: 2px solid black;
     height: 490px;
-    width: 400px;
+    width: 450px;
     display: flex;
+}
+
+.results {
+    border: 2px solid black;
+    width: 1400px;
+    height: 160px;
+    padding: 10px;
+    display: flex;
+}
+
+.resultp1 {
+    border: 2px solid black;
+    height: 150px;
+    width: 450px;
+    display: flex;
+}
+
+.result {
+    border: 2px solid black;
+    height: 150px;
+    width: 500px;
+    display: flex;
+}
+
+.resultp2 {
+    border: 2px solid black;
+    height: 150px;
+    width: 450px;
+    display: flex;
+}
+
+.table1 {
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-bottom: -55;
+}
+
+.table2 {
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-bottom: -55;
+
+}
+
+.table3 {
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-bottom: -55;
+
+}
+
+.table4 {
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    border-top: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-bottom: -55;
+    margin-top: -45;
+}
+
+.table5 {
+    border: 8px solid black;
+    width: 120px;
+    height: 120px;
+    margin-bottom: -55;
+    margin-top: -45;
+}
+
+.table6 {
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
+    border-top: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-bottom: -55;
+    margin-top: -45;
+}
+
+.table7 {
+    border-right: 8px solid black;
+    border-top: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-top: -45;
+}
+
+.table8 {
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    border-top: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-top: -45;
+}
+
+.table9 {
+    border-left: 8px solid black;
+    border-top: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-top: -45;
 }
