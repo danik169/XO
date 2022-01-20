@@ -27,6 +27,7 @@ button {
 .button1 {
     padding: 1em 1.75em;
     border: 2px solid #06569e;
+    width: 150px;
     border-radius: 0.75em;
     font-weight: 700;
     color: black;
