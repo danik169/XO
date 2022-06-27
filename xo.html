@@ -3,7 +3,7 @@
 <head>
     <title>XO</title>
     <link rel="stylesheet" href="design.css" />
-    <script type="text\javascript" src="function.js"></script>
+    <script type="text/javascript" src="function.js"></script>
 </head>
 
 <body>
@@ -13,23 +13,26 @@
         <button class="button1">Allclear</button>
     </div>
     <div class="gamezone">
-        <div class="p1zone">
+        <div class="player active-player">
             <img src="avatar.png" class="avatar">
+            <div>Player1</div>
+            <div class="player-sign">X</div>
         </div>
         <div class="table">
-            <div class="table1"></div>
-            <div class="table2"></div>
-            <div class="table3"></div>
-            <div class="table4"></div>
-            <div class="table5"></div>
-            <div class="table6"></div>
-            <div class="table7"></div>
-            <div class="table8"></div>
-            <div class="table9"></div>
+            <div class="table0 cell" onclick="cellClick()">X</div>
+            <div class="table1 cell">O</div>
+            <div class="table2 cell"></div>
+            <div class="table3 cell"></div>
+            <div class="table4 cell"></div>
+            <div class="table5 cell"></div>
+            <div class="table6 cell"></div>
+            <div class="table7 cell"></div>
+            <div class="table8 cell"></div>
         </div>
-        <div class="p2zone">
+        <div class="player">
             <img src="avatar.png" class="avatar">
-
+            <div>Player2</div>
+            <div class="player-sign">O</div>
         </div>
     </div>
 

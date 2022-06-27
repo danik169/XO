@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: #34f9fe;
 }
 
 .buttonspace {
@@ -77,6 +77,7 @@ button {
     height: 490px;
     padding: 10px;
     display: flex;
+    justify-content: center;
 }
 
 .p1zone {
@@ -142,7 +143,7 @@ button {
     display: flex;
 }
 
-.table1 {
+.table0 {
     border-bottom: 8px solid black;
     border-right: 8px solid black;
     width: 120px;
@@ -151,10 +152,20 @@ button {
     margin-bottom: -55;
 }
 
-.table2 {
+.table1 {
     border-bottom: 8px solid black;
     border-left: 8px solid black;
     border-right: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-bottom: -55;
+
+}
+
+.table2 {
+    border-bottom: 8px solid black;
+    border-left: 8px solid black;
     width: 120px;
     height: 120px;
     display: flex;
@@ -164,16 +175,6 @@ button {
 
 .table3 {
     border-bottom: 8px solid black;
-    border-left: 8px solid black;
-    width: 120px;
-    height: 120px;
-    display: flex;
-    margin-bottom: -55;
-
-}
-
-.table4 {
-    border-bottom: 8px solid black;
     border-right: 8px solid black;
     border-top: 8px solid black;
     width: 120px;
@@ -183,7 +184,7 @@ button {
     margin-top: -45;
 }
 
-.table5 {
+.table4 {
     border: 8px solid black;
     width: 120px;
     height: 120px;
@@ -191,7 +192,7 @@ button {
     margin-top: -45;
 }
 
-.table6 {
+.table5 {
     border-bottom: 8px solid black;
     border-left: 8px solid black;
     border-top: 8px solid black;
@@ -202,7 +203,17 @@ button {
     margin-top: -45;
 }
 
+.table6 {
+    border-right: 8px solid black;
+    border-top: 8px solid black;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-top: -45;
+}
+
 .table7 {
+    border-left: 8px solid black;
     border-right: 8px solid black;
     border-top: 8px solid black;
     width: 120px;
@@ -213,7 +224,6 @@ button {
 
 .table8 {
     border-left: 8px solid black;
-    border-right: 8px solid black;
     border-top: 8px solid black;
     width: 120px;
     height: 120px;
@@ -221,11 +231,24 @@ button {
     margin-top: -45;
 }
 
-.table9 {
-    border-left: 8px solid black;
-    border-top: 8px solid black;
-    width: 120px;
-    height: 120px;
+.player {
+    height: 490px;
+    width: 450px;
     display: flex;
-    margin-top: -45;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.player-sign {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.active-player {
+    background-color: blue;
+}
+
+.cell {
+    font-size: 40px;
 }
